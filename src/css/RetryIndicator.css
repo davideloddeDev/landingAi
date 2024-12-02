@@ -1,0 +1,29 @@
+.retry-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.retry-progress {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.retry-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #28a745;
+  transition: all 0.3s ease;
+}
+
+.retry-dot.used {
+  background: #dc3545;
+}
+
+.retry-text {
+  font-size: 0.9rem;
+  color: #666;
+}

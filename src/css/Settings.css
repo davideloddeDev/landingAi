@@ -1,0 +1,100 @@
+.settings-container {
+  min-height: 100vh;
+  background: #f8f9fa;
+  padding: 2rem;
+}
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.back-button {
+  padding: 0.8rem 1.5rem;
+  background: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background: #007bff;
+  color: white;
+}
+
+.settings-content {
+  display: grid;
+  gap: 2rem;
+  max-width: 800px;
+}
+
+.settings-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  margin-top: 1rem;
+}
+
+.profile-info p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.subscription-controls {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.upgrade-button {
+  padding: 0.8rem 1.5rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cancel-button {
+  padding: 0.8rem 1.5rem;
+  background: transparent;
+  border: 2px solid #dc3545;
+  color: #dc3545;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.danger-zone {
+  border: 2px solid #dc3545;
+}
+
+.danger-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.delete-button, .logout-button {
+  padding: 0.8rem 1.5rem;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.logout-button {
+  background: #666;
+}

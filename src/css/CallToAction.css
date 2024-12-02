@@ -1,0 +1,35 @@
+
+.cta {
+  padding: 8rem 2rem;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.cta .btn-primary {
+  background: white;
+  color: #007bff;
+  font-size: 1.2rem;
+  padding: 1.2rem 3rem;
+}
+
+.cta .btn-primary:hover {
+  background: rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+}

@@ -1,0 +1,104 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: #f8f9fa;
+  padding: 2rem;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  color: #1a1a1a;
+  font-size: 2rem;
+}
+
+.control-panel-button {
+  padding: 0.8rem 1.5rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.control-panel-button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.plan-info-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plan-details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.plan-badge {
+  background: #e8f4ff;
+  color: #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.plan-status {
+  color: #28a745;
+  font-weight: 500;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-features li {
+  padding: 0.5rem 0;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.plan-features li::before {
+  content: "✓";
+  color: #28a745;
+}
+
+.quick-actions {
+  display: grid;
+  gap: 1rem;
+}
+
+.action-button {
+  padding: 1rem;
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-button:hover {
+  border-color: #007bff;
+  color: #007bff;
+}

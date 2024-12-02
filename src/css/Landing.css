@@ -1,0 +1,17 @@
+
+.landing {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.landing section {
+  width: 100%;
+}
+
+.landing section:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.landing section:nth-child(odd) {
+  background-color: white;
+}

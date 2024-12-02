@@ -1,0 +1,58 @@
+.resource-usage-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.resource-item {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.resource-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.resource-name {
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.resource-percentage {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #007bff;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.resource-details {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: right;
+}
